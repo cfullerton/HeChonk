@@ -14,6 +14,8 @@
 		6E13BA14220D18A400A47EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E13BA12220D18A400A47EB1 /* LaunchScreen.storyboard */; };
 		6E13BA1F220D18A400A47EB1 /* HeChonkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E13BA1E220D18A400A47EB1 /* HeChonkTests.swift */; };
 		6E13BA2A220D18A500A47EB1 /* HeChonkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E13BA29220D18A500A47EB1 /* HeChonkUITests.swift */; };
+		6E13BA38220FF39B00A47EB1 /* support.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6E13BA37220FF39B00A47EB1 /* support.txt */; };
+		6E13BA3A220FF7D200A47EB1 /* privacy-chonker.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6E13BA39220FF7D200A47EB1 /* privacy-chonker.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6E13BA25220D18A500A47EB1 /* HeChonkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeChonkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E13BA29220D18A500A47EB1 /* HeChonkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeChonkUITests.swift; sourceTree = "<group>"; };
 		6E13BA2B220D18A500A47EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E13BA37220FF39B00A47EB1 /* support.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = support.txt; sourceTree = "<group>"; };
+		6E13BA39220FF7D200A47EB1 /* privacy-chonker.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "privacy-chonker.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		6E13B9FD220D18A200A47EB1 = {
 			isa = PBXGroup;
 			children = (
+				6E13BA37220FF39B00A47EB1 /* support.txt */,
+				6E13BA39220FF7D200A47EB1 /* privacy-chonker.txt */,
 				6E13BA08220D18A300A47EB1 /* HeChonk */,
 				6E13BA1D220D18A400A47EB1 /* HeChonkTests */,
 				6E13BA28220D18A500A47EB1 /* HeChonkUITests */,
@@ -231,7 +237,9 @@
 			files = (
 				6E13BA14220D18A400A47EB1 /* LaunchScreen.storyboard in Resources */,
 				6E13BA11220D18A400A47EB1 /* Assets.xcassets in Resources */,
+				6E13BA38220FF39B00A47EB1 /* support.txt in Resources */,
 				6E13BA0F220D18A300A47EB1 /* Main.storyboard in Resources */,
+				6E13BA3A220FF7D200A47EB1 /* privacy-chonker.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,11 +443,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T68566V8YJ;
 				INFOPLIST_FILE = HeChonk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.connerfullerton..HeChonk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connerfullerton.HeChonk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,11 +462,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T68566V8YJ;
 				INFOPLIST_FILE = HeChonk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.connerfullerton..HeChonk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.connerfullerton.HeChonk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

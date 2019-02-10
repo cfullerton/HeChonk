@@ -1,0 +1,6 @@
+Privacy Policy for He Chonk:
+
+We do not collect any information about users. This app makes one POST request to our servers, which contains the image that is taken when the scan button is pressed. This image is processed by an ephemeral docker container to run it through our trained ML model to determine whether the image contains a cat and where it falls on the chonker model. After this analysis the image is discarded. No information about where the image came from is stored. The image is not stored.
+
+Please see our Support Document for any questions.
+
